@@ -17,11 +17,34 @@
       <section class="card">
         <h2 class="card__title">Create a new Question</h2>
         <form>
-            <input type="text" required>
-            <input type="submit">
-
+          <label for="question"></label>
+          <input
+            type="text"
+            id="question"
+            name="question"
+            placeholder="Your question"
+            required
+          />
+          <label for="answer"></label>
+          <input
+            type="text"
+            id="answer"
+            name="answer"
+            placeholder="Add answer"
+            required
+          />
+          <label for="tags">Add tags divided by comma</label>
+          <input
+            type="text"
+            id="tags"
+            name="tags"
+            placeholder="Add tags"
+            required
+          />
+          <label for="submit"></label>
+          <input type="submit" name="submit" value="Submit" />
         </form>
-        
+
         <!--<p class="card__question--">Frage</p>
         <button></button>
         <ul class="card__ul--Tags">
