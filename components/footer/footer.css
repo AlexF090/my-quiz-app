@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: rgb(204, 204, 204);
+  padding-top: 0.25rem;
+  margin-bottom: auto;
+  position: fixed;
+  bottom: 0%;
+  width: 100vw;
+  
+}
+
+nav {
+  
+
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.nav_icon {
+  height: 2rem;
+}
+
+figcaption {
+  padding-bottom: 0.2rem;
+}
+
