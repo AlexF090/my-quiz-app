@@ -7,7 +7,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  
+  position: relative;
   background-color: lightblue;
   padding: 1.25rem;
   padding-bottom: 1rem;
@@ -35,12 +35,12 @@
 }
 
 .BookmarkIcon {
-  margin-top: 4vw;
-  width: 2rem;
-  height: 2rem;
-  position: relative;
-  bottom: 28%;
-  left: 98%;
+  
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  top: -0.75rem;
+  right: -0.45rem;
 }
 
 
