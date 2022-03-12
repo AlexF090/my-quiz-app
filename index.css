@@ -8,17 +8,15 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: lightblue;
-  padding: 1.25rem;
-  padding-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: rgba(187, 238, 255, 0.616);
   width: 85vw;
-  min-width:15rem;
+  min-width: 20rem;
   max-width: 60rem;
   margin: 4vw 0;
   padding: 2rem;
-  
+  border-radius: 30px 10px 30px 10px;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .card__ul--Tags {
@@ -35,13 +33,11 @@
 }
 
 .BookmarkIcon {
-  
   width: 2.5rem;
   height: 2.5rem;
   position: absolute;
-  top: -0.75rem;
-  right: -0.45rem;
+  top: -0.9rem;
+  right: 0rem;
 }
-
 
 /* Questions */

@@ -1,40 +1,96 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: lightblue;
-    padding: 1.25rem;
-    padding-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85vw;
-    min-width:15rem;
-    max-width: 60rem;
-    margin: 4vw 0;
-    padding: 2rem;
-    
-  }
-  
-  .card__ul--Tags {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .card__title {
-    font-size: 1.5em;
-    margin-bottom: 0.75rem;
-  }
-  
-  
-  
-  /* Questions */
-  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgba(187, 238, 255, 0.616);
+  width: 85vw;
+  height: 75vh;
+  min-width: 20rem;
+  max-width: 60rem;
+  margin: 4vw 0;
+  padding: 2rem;
+  border-radius: 47.33px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Not jet needed
+.card__ul--Tags {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}*/
+
+.card__title {
+  font-size: 1.5em;
+  margin-bottom: 0.75rem;
+}
+
+/* Questions */
+
+.form__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__questions {
+  width: 100%;
+}
+
+#question {
+  border-width: 1px;
+  border-color: lightgray;
+  padding: 0.75rem;
+  resize: none;
+  height: 15vh;
+  font-size: 1rem;
+}
+
+#answer {
+  border-width: 1px;
+  border-color: lightgray;
+  padding: 0.75rem;
+  resize: none;
+  height: 15vh;
+  font-size: 1rem;
+}
+
+.label__tags {
+  border-width: 1px;
+  border-color: lightgray;
+  padding: 0.35rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.75rem;
+
+  font-size: 1rem;
+  resize: none;
+  font-size: 1rem;
+}
+
+#tags {
+  flex-shrink: 0.5rem;
+  flex-grow: 0.5rem;
+  flex-basis: 5vh;
+  padding: 0.75rem;
+  padding-top: 0.75rem;
+  font-size: 1rem;
+}
+
+#submit__question {
+  font-size: 1rem;
+  height: 1.5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-self: center;
+  font-size: 1rem;
+}

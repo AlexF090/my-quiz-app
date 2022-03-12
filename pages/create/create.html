@@ -5,35 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>Quiz-App | Create a new question</title>
+    <link rel="stylesheet" href="create.css" />
+    <title>Quiz-App | New Question</title>
   </head>
   <body>
     <header class="header">
-      <h1>Create new questions</h1>
+      <h1>Quiz-App | New Question</h1>
     </header>
     <!--Here starts the main content-->
     <main class="main">
       <!--Here starts the question-CARD-->
       <section class="card">
-        <h2 class="card__title">Create a new Question</h2>
+        <h2 class="card__title">Create a new question</h2>
         <form class="form__questions">
           <label for="question"></label>
-          <input
-            type="text"
+          <textarea
             id="question"
             name="question"
-            placeholder="Your question"
+            placeholder="Your Question"
+            cols="20"
+            rows="5"
+            minlength="1"
+            maxlength="900"
+            autocomplete
+            spellcheck
             required
-          />
+          ></textarea>
+
           <label for="answer"></label>
-          <input
-            type="text"
+          <textarea
             id="answer"
             name="answer"
             placeholder="Add answer"
+            cols="20"
+            rows="5"
+            minlength="1"
+            maxlength="900"
+            autocomplete
+            spellcheck
             required
-          />
-          <label for="tags">Add tags divided by comma</label>
+          ></textarea>
+
+          <label class="label__tags" for="tags"
+            >Add tags divided by comma</label
+          >
           <input
             type="text"
             id="tags"
@@ -42,7 +57,12 @@
             required
           />
           <label for="submit"></label>
-          <input type="submit" name="submit" value="Submit" />
+          <input
+            type="submit"
+            id="submit__question"
+            name="submit"
+            value="Submit"
+          />
         </form>
 
         <!--<p class="card__question--">Frage</p>

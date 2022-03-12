@@ -6,16 +6,19 @@
 
 .footer {
   margin-top: 5rem;
+  border-top: 10px;
 }
 
 .navbar {
   background-color: rgb(204, 204, 204);
-  padding-top: 0.25rem;
+  padding-top: 0.35rem;
   margin-bottom: auto;
   position: fixed;
   bottom: 0%;
   width: 100vw;
   margin-top: 4vw;
+  border-top-width: 1px;
+  border-top-style: solid;
 }
 
 .navList {
@@ -24,12 +27,22 @@
   list-style-type: none;
   justify-content: space-around;
   text-align: center;
+
+
 }
+
 
 .nav_icon {
   height: 2rem;
+
 }
 
-figcaption {
+.nav__title {
   padding-bottom: 0.2rem;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
