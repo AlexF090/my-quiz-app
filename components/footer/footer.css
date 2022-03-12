@@ -34,15 +34,23 @@
 
 .nav_icon {
   height: 2rem;
-
+  filter: invert(50%);
 }
+
+
 
 .nav__title {
   padding-bottom: 0.2rem;
  
+ 
 }
 
-nav a {
+.nav__link {
   text-decoration: none;
   color: black;
+  filter: invert(50%)
+}
+
+.current {
+  filter: invert(0%)
 }
