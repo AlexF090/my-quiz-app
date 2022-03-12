@@ -9,13 +9,9 @@
   position: fixed;
   bottom: 0%;
   width: 100vw;
-  
 }
 
-nav {
-  
 
-}
 
 .navigation {
   display: flex;
@@ -23,7 +19,6 @@ nav {
   list-style-type: none;
   justify-content: space-around;
   text-align: center;
-  
 }
 
 .nav_icon {
@@ -33,4 +28,3 @@ nav {
 figcaption {
   padding-bottom: 0.2rem;
 }
-
