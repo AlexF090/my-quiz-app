@@ -1,24 +1,35 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .footer {
+  margin-top: 5rem;
+}
+
+
+
+.navbar {
   background-color: rgb(204, 204, 204);
   padding-top: 0.25rem;
   margin-bottom: auto;
   position: fixed;
   bottom: 0%;
   width: 100vw;
+  margin-top: 4vw;
+  
 }
 
 
 
-.navigation {
+.navList {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   justify-content: space-around;
   text-align: center;
+  
 }
 
 .nav_icon {

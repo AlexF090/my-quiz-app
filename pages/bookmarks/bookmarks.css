@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 1.25rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    min-width:15rem;
+    max-width: 60rem;
+    margin: 4vw 0;
+    padding: 2rem;
+    
+  }
+  
+  .card__ul--Tags {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card__title {
+    font-size: 1.5em;
+    margin-bottom: 0.75rem;
+  }
+  
+  
+  
+  /* Questions */
+  

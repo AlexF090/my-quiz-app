@@ -7,7 +7,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  
   background-color: lightblue;
   padding: 1.25rem;
   padding-bottom: 1rem;
@@ -34,8 +34,14 @@
   margin-bottom: 0.75rem;
 }
 
-main {
-  padding-bottom: 7vh;
+.BookmarkIcon {
+  margin-top: 4vw;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 28%;
+  left: 98%;
 }
+
 
 /* Questions */
