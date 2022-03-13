@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 6vh;
+  width: 98vw;
+  height: 79vh;
+  min-width: 20rem;
+  max-width: 60rem;
+  margin: 1vw 0;
+  padding: 2rem;
+}
+
+.section__PicAndName {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 1vw;
+}
+
+.section__profilePicture {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.section__profileName {
+  margin-right: 1rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section__aboutYourSelf {
+  border: 1px solid;
+  border-radius: 7px 7px 7px 7px;
+  padding: 0.5rem;
+}
+
+.section__profileTags {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border: 1px solid;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.logoutButton {
+  font-size: 1rem;
+  height: 1.5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.section__profilePicture {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 2px solid;
+}

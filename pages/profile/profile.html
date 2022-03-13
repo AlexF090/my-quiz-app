@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
-    
+    <link rel="stylesheet" href="profile.css" />
     <title>Quiz-App</title>
   </head>
   <body>
@@ -15,21 +15,28 @@
     <!--Here starts the main content-->
     <main class="main">
       <section class="profile">
-        <img src="" alt="Your profile picture " />
-        <h2 class="profileName">Profile Name</h2>
-        <p class="AboutYourSelf">
+        <div class="section__PicAndName">
+        <img
+          class="section__profilePicture"
+          src="/assets/dog.jpg"
+          alt="Your profile picture "
+        />
+        <h2 class="section__profileName">Profile Name</h2>
+      </div>
+        <p class="section__aboutYourSelf">
           About yourself Lorem ipsum dolor sit amet consectetur, adipisicing
           elit. Suscipit pariatur architecto ratione vitae explicabo distinctio
           harum vel eos quas. Dignissimos accusamus facere natus aspernatur enim
           ipsa quam blanditiis hic adipisci?
         </p>
-        <ul>
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-          <li>Tag 4</li>
+        <ul class="section__profileTags">
+          <li>#Tag 1</li>
+          <li>#Tag 2</li>
+          <li>#Tag 3</li>
+          <li>#Tag 4</li>
         </ul>
-        <p class="logout">Logout</p>
+
+        <button class="logoutButton">Logout</button>
       </section>
 
       <!--Here starts the question-CARD
