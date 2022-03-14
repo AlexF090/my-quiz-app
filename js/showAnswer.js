@@ -2,9 +2,22 @@ document
   .querySelector("button[data-button-value='answer__button--toggle1']")
   .addEventListener("click", function () {
     document
-      .querySelector(".card__answer--show1")
-      .classList.toggle("card__answer--showAnswer");
+      .querySelector(".card__answer--show1") /* Hier paragraph*/
+      .classList.toggle("card__answer--showAnswer"); /* Hier class*/
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 document
   .querySelector("button[data-button-value='answer__button--toggle2']")
