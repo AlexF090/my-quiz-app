@@ -36,7 +36,6 @@
   border-style: solid;
   color: #000;
   background-color: rgba(255, 255, 255, 0.616);
-  
 }
 
 .card__title {
@@ -50,11 +49,14 @@
   position: absolute;
   top: -0.9rem;
   right: 0rem;
-  
 }
 
-.card__question,
+.card__question {
+  text-align: center;
+}
+
 .card__answer {
+  display: none;
   text-align: center;
 }
 
@@ -63,4 +65,9 @@
   background-color: white;
   text-align: center;
 }
+
+.card__answer--showAnswer {
+  display: block;
+}
+
 /* Questions */
