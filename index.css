@@ -29,11 +29,12 @@
 
 .card__ul--Tags li {
   padding: 0.3rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 30px 10px 30px 10px;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  border-radius: 10px;
   border-width: 2px;
   border-style: solid;
+  color: #000;
 }
 
 .card__title {
