@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: rgba(187, 238, 255, 0.616);
+}
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -43,13 +47,14 @@
   border: 2px black solid;
   border-radius: 7px 7px 7px 7px;
   padding: 0.5rem;
-  background-color: rgba(187, 238, 255, 0.616);
+  background-color: rgba(255, 255, 255, 0.616);
 }
 
 .section__profileTags {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  
 }
 
 .section__profileTags li {
@@ -57,7 +62,7 @@
   padding-bottom: 0.25rem;
   border: 2px solid;
   border-radius: 7px 7px 7px 7px;
-  background-color: rgba(187, 238, 255, 0.616);
+  background-color: rgba(255, 255, 255, 0.616);
 }
 
 .logoutButton {
@@ -67,6 +72,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   align-self: center;
+  border: 1px black solid;
   color: #000;
   background-color: white;
   text-align: center;
