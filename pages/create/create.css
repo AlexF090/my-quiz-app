@@ -106,3 +106,10 @@
   border: 1px black solid;
   color: #000;
 }
+
+
+.answerButton {
+  color: #000;
+  background-color: white;
+  text-align: center;
+}

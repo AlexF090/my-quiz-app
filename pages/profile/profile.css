@@ -68,6 +68,8 @@
   margin-bottom: 1rem;
   align-self: center;
   color: #000;
+  background-color: white;
+  text-align: center;
 }
 
 .section__profilePicture {
