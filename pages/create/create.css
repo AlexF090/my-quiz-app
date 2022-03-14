@@ -102,4 +102,6 @@
   margin-bottom: 1rem;
   align-self: center;
   font-size: 1rem;
+  border-radius: 30px 10px 30px 10px;
+  border: 1px black solid;
 }

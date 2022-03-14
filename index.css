@@ -27,6 +27,15 @@
   margin-bottom: 1rem;
 }
 
+.card__ul--Tags li {
+  padding: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 30px 10px 30px 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
 .card__title {
   font-size: 1.5em;
   margin-bottom: 0.75rem;

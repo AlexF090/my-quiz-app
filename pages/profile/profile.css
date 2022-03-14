@@ -40,19 +40,24 @@
 }
 
 .section__aboutYourSelf {
-  border: 1px solid;
+  border: 2px black solid;
   border-radius: 7px 7px 7px 7px;
   padding: 0.5rem;
+  background-color: rgba(187, 238, 255, 0.616);
 }
 
 .section__profileTags {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  padding-top: 0.25rem;
+}
+
+.section__profileTags li {
+  padding: 0.25rem;
   padding-bottom: 0.25rem;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 7px 7px 7px 7px;
+  background-color: rgba(187, 238, 255, 0.616);
 }
 
 .logoutButton {
