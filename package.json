@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run htmlhint && prettier:write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
     "styleint": "npx stylelint \"**/*.css\"",
-    "eslint": "npx eslint \"**/*.js\""
+    "eslint": "npx eslint \"**/*.js\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +26,13 @@
     "babel-loader": "^8.2.3",
     "eslint": "^8.11.0",
     "htmlhint": "^1.1.2",
+    "husky": "^7.0.4",
     "prettier": "2.6.0",
     "stylelint": "^14.6.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0"
+  },
+  "dependencies": {
+    "lint-staged": "^12.3.6"
   }
 }
