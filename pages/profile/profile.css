@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(187, 238, 255, 0.616);
+  background-color: rgb(187 238 255 / 61.6%);
 }
 
 .profile {
@@ -45,9 +45,9 @@ body {
 
 .section__aboutYourSelf {
   border: 2px black solid;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 7px;
   padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: rgb(255 255 255 / 61.6%);
 }
 
 .section__profileTags {
@@ -60,8 +60,8 @@ body {
   padding: 0.25rem;
   padding-bottom: 0.25rem;
   border: 2px solid;
-  border-radius: 7px 7px 7px 7px;
-  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 7px;
+  background-color: rgb(255 255 255 / 61.6%);
 }
 
 .logoutButton {

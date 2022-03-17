@@ -8,14 +8,14 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: rgba(187, 238, 255, 0.616);
+  background-color: rgb(187 238 255 / 61.6%);
   width: 85vw;
   height: 75vh;
   min-width: 20rem;
   max-width: 60rem;
   margin: auto 0;
   padding: 2rem;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border-width: 2px;
   border-style: solid;
 }
@@ -27,7 +27,7 @@
   list-style: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}*/
+} */
 
 .card__title {
   font-size: 1.5em;
@@ -53,7 +53,7 @@
   resize: none;
   height: 15vh;
   font-size: 1rem;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border-width: 2px;
   border-style: solid;
 }
@@ -65,7 +65,7 @@
   resize: none;
   height: 15vh;
   font-size: 1rem;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border-width: 2px;
   border-style: solid;
 }
@@ -89,7 +89,7 @@
   padding: 0.75rem;
   padding-top: 0.75rem;
   font-size: 1rem;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border-width: 2px;
   border-style: solid;
 }
@@ -101,7 +101,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   align-self: center;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border: 1px black solid;
   color: #000;
   background-color: white;

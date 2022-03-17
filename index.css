@@ -8,13 +8,13 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: rgba(186, 238, 255, 0.616);
+  background-color: rgb(186 238 255 / 61.6%);
   width: 85vw;
   min-width: 20rem;
   max-width: 60rem;
   margin: 4vw 0;
   padding: 2rem;
-  border-radius: 30px 10px 30px 10px;
+  border-radius: 30px 10px;
   border-width: 2px;
   border-style: solid;
 }
@@ -35,7 +35,7 @@
   border-width: 2px;
   border-style: solid;
   color: #000;
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: rgb(255 255 255 / 61.6%);
 }
 
 .card__title {
@@ -48,7 +48,7 @@
   height: 2.5rem;
   position: absolute;
   top: -0.9rem;
-  right: 0rem;
+  right: 0;
 }
 
 .card__question {

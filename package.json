@@ -10,7 +10,7 @@
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "styleint": "npx stylelint \"**/*.css\"",
+    "stylelint": "npx stylelint \"**/*.css\"",
     "eslint": "npx eslint \"**/*.js\"",
     "prepare": "husky install"
   },
