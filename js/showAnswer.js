@@ -6,19 +6,6 @@ document
       .classList.toggle("card__answer--showAnswer"); /* Hier class*/
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 document
   .querySelector("button[data-button-value='answer__button--toggle2']")
   .addEventListener("click", function () {
