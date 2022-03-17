@@ -1,6 +1,6 @@
 /* General CSS settings and import footer.css */
 
-@import "/components/footer/footer.css";
+@import '/components/footer/footer.css';
 
 * {
   box-sizing: border-box;
