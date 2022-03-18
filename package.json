@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run htmlhint && prettier:write",
+    "test": "npm run htmlhint && npm run prettier:write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "htmlhint": "npx htmlhint \"**/*.html\"",
