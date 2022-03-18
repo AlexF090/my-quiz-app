@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="create.css" />
+    <script src="/main.js" defer></script>
     <title>Quiz-App | New Question</title>
   </head>
   <body>
@@ -18,7 +19,9 @@
       <section class="card">
         <h2 class="card__title">Create a new question</h2>
         <form class="form__questions">
-          <h3 class="form__titleTextarea--headline">Question:</h3>
+          <h3 class="form__titleTextarea--headline">
+            Question:<span id="charCount">0</span>
+          </h3>
           <label for="question"></label>
           <textarea
             id="question"

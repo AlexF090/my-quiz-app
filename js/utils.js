@@ -1,0 +1,1 @@
+// Counter function for textarea
