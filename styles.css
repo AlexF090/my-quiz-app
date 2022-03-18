@@ -1,5 +1,6 @@
-/* General CSS settings and import footer.css */
-
+@import '/pages/profile/profile.css';
+@import '/pages/create/create.css';
+@import '/pages/bookmarks/bookmarks.css';
 @import '/components/footer/footer.css';
 
 * {

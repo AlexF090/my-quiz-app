@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.card {
+.card__create {
   display: flex;
   flex-direction: column;
   position: relative;
