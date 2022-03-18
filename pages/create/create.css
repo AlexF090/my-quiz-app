@@ -32,18 +32,19 @@
 .card__title {
   font-size: 1.5em;
   margin-bottom: 0.75rem;
+  padding-left: 0.35rem;
 }
-
-/* Questions */
 
 .form__questions {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  width: 100%;
 }
 
-.form__questions {
-  width: 100%;
+.form__titleTextarea--headline {
+  margin-top: 1.25rem;
+  padding-left: 0.35rem;
 }
 
 #question {
@@ -73,13 +74,11 @@
 .label__tags {
   border-width: 1px;
   border-color: lightgray;
-  padding: 0.35rem;
+  padding-left: 0.35rem;
   padding-bottom: 0.2rem;
-  margin-top: 0.75rem;
   font-size: 1rem;
   resize: none;
   font-size: 1rem;
-  align-self: center;
 }
 
 #tags {
