@@ -30,20 +30,21 @@
 }
 
 .nav_icon {
-  height: 2rem;
+  height: 3rem;
   filter: invert(50%);
+  padding-bottom: 0.2rem;
 }
 
 .nav__title {
   padding-bottom: 0.2rem;
 }
-
+/* old
 .nav__link {
   text-decoration: none;
   color: black;
   filter: invert(50%);
 }
-
+*/
 .current {
   filter: invert(0%);
 }

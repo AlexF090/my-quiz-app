@@ -69,3 +69,7 @@ h1 {
   border: 1px black solid;
   color: rgb(204, 204, 204);
 }
+
+.hide {
+  display: none;
+}

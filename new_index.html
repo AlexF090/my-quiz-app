@@ -11,11 +11,12 @@
     <title>Quiz-App</title>
   </head>
   <body>
+    <!--Header-->
+    <header class="header">
+      <h1>Quiz-App</h1>
+    </header>
     <!--Here starts the Home content-->
-    <article>
-      <header class="header">
-        <h1>Quiz-App</h1>
-      </header>
+    <article data-title="quiz-app">
       <!--Here starts the main content-->
       <main class="main">
         <!--Here starts the question-CARD!-->
@@ -151,10 +152,7 @@
     </article>
 
     <!--Here starts the Bookmarks content-->
-    <article>
-      <header class="header">
-        <h1>Bookmarks</h1>
-      </header>
+    <article class="hide" data-title="bookmarks">
       <!--Here starts the main content-->
       <main class="main">
         <!--Here starts the question-CARD-->
@@ -290,10 +288,7 @@
     </article>
 
     <!--Here starts the Create content-->
-    <article>
-      <header class="header">
-        <h1>Create</h1>
-      </header>
+    <article class="hide" data-title="create">
       <!--Here starts the main content-->
       <main class="main">
         <!--Here starts the question-CARD-->
@@ -353,7 +348,6 @@
               value="Submit"
             />
           </form>
-
           <!--<p class="card__question--">Frage</p>
           <button></button>
           <ul class="card__ul--Tags">
@@ -367,10 +361,7 @@
     </article>
 
     <!--Here starts the Profile content-->
-    <article>
-      <header class="header">
-        <h1>Profile</h1>
-      </header>
+    <article class="hide" data-title="profile">
       <!--Here starts the main content-->
       <main class="main">
         <section class="profile">
@@ -394,7 +385,6 @@
             <li>#Tag 3</li>
             <li>#Tag 4</li>
           </ul>
-
           <button class="logoutButton">Logout</button>
         </section>
 
@@ -412,96 +402,38 @@
           </ul>
         </section>-->
       </main>
-      <footer class="footer">
-        <nav class="navbar">
-          <ul class="navList">
-            <li>
-              <a class="nav__link" href="/index.html">
-                <img
-                  class="nav_icon"
-                  src="/assets/home_Home_Page_84102.png"
-                  alt="Home"
-                />
-                <figcaption class="nav__title">Home</figcaption></a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="/pages/bookmarks/booksmarks.html"
-                ><img
-                  class="nav_icon"
-                  src="/assets/Bookmarks/bookmark_checked.png"
-                  alt="Bookmarks"
-                />
-                <figcaption class="nav__title">Bookmarks</figcaption></a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="/pages/create/create.html"
-                ><img
-                  class="nav_icon current"
-                  src="/assets/create_Create_114093.png"
-                  alt="Create"
-                />
-                <figcaption class="nav__title">Create</figcaption></a
-              >
-            </li>
-            <li>
-              <a class="nav__link current" href="/pages/profile/profile.html"
-                ><img
-                  class="nav_icon current"
-                  src="/assets/profile_Name_83151.png"
-                  alt="Profile"
-                />
-                <figcaption class="nav__title">Profile</figcaption></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </footer>
     </article>
 
     <footer class="footer">
       <nav class="navbar">
         <ul class="navList">
-          <li>
-            <a class="nav__link current" href="index.html">
-              <img
-                class="nav_icon current"
-                src="/assets/home_Home_Page_84102.png"
-                alt="Home"
-              />
-              <figcaption class="nav__title">Home</figcaption></a
-            >
+          <li data-nav="home">
+            <img
+              class="nav_icon current"
+              src="/assets/home_Home_Page_84102.png"
+              alt="Home"
+            />
           </li>
-          <li>
-            <a class="nav__link" href="pages/bookmarks/booksmarks.html"
-              ><img
-                class="nav_icon"
-                src="/assets/Bookmarks/bookmark_checked.png"
-                alt="Bookmarks"
-              />
-              <figcaption class="nav__title">Bookmarks</figcaption></a
-            >
+          <li data-nav="bookmarks">
+            <img
+              class="nav_icon"
+              src="/assets/Bookmarks/bookmark_checked.png"
+              alt="Bookmarks"
+            />
           </li>
-          <li>
-            <a class="nav__link" href="pages/create/create.html"
-              ><img
-                class="nav_icon"
-                src="/assets/create_Create_114093.png"
-                alt="Create"
-              />
-              <figcaption class="nav__title">Create</figcaption></a
-            >
+          <li data-nav="create">
+            <img
+              class="nav_icon"
+              src="/assets/create_Create_114093.png"
+              alt="Create"
+            />
           </li>
-          <li>
-            <a class="nav__link" href="pages/profile/profile.html"
-              ><img
-                class="nav_icon"
-                src="/assets/profile_Name_83151.png"
-                alt="Profile"
-              />
-              <figcaption class="nav__title">Profile</figcaption></a
-            >
+          <li data-nav="profile">
+            <img
+              class="nav_icon"
+              src="/assets/profile_Name_83151.png"
+              alt="Profile"
+            />
           </li>
         </ul>
       </nav>
