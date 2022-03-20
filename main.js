@@ -25,14 +25,16 @@ tags.addEventListener('input', () => {
   document.getElementById('charCount3').textContent = ` ${count} sign(s)`;
 });
 
+// hide and show pages
+//const
 const buttons = document.querySelectorAll('.nav_icon'),
   article = document.querySelectorAll('article');
 
+//function
 buttons.forEach((item, index) => {
   item.addEventListener('click', () => {
     article.forEach(item => {
       item.classList.add('hide');
-      buttons[index].classList.remove('current');
     });
     buttons.forEach(item => {
       item.classList.remove('current');
