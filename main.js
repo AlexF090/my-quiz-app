@@ -28,19 +28,27 @@ tags.addEventListener('input', () => {
 // hide and show pages
 //const
 const buttons = document.querySelectorAll('.nav_icon'),
-  article = document.querySelectorAll('article');
+  article = document.querySelectorAll('article'),
+  header = document.querySelector('h1');
+// header.children[0].innerHTML =
+//console
+// console.log(header);
 
 //function
 buttons.forEach((item, index) => {
   item.addEventListener('click', () => {
     article.forEach(item => {
-      item.classList.add('hide');
+      //change article
+      item.classList.add('hide'); //Add hide to articles
     });
     buttons.forEach(item => {
-      item.classList.remove('current');
+      //change buttons
+      item.classList.remove('current'); //remove current class from buttons
     });
-    console.log(article[index]);
-    article[index].classList.remove('hide');
-    buttons[index].classList.add('current');
+    /*header.forEach(item => {             //change header
+      item.classList.remove('current');   //add new header
+    });*/
+    article[index].classList.remove('hide'); //Remove hide to articles
+    buttons[index].classList.add('current'); //add current class to buttons
   });
 });
